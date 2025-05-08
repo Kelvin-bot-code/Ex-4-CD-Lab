@@ -31,7 +31,7 @@ int yywrap() {
     return 1;
 }
 ```
-
+```c
 // expr4.y file
 %{
 #include <stdio.h>
@@ -68,7 +68,8 @@ void yyerror(const char *msg) {
 }
 ```
 # Output
-![Screenshot 2025-05-08 133612](https://github.com/user-attachments/assets/a86d2714-b794-48f1-929d-115df445e590)
+![Screenshot 2025-05-08 133612](https://github.com/user-attachments/assets/618403cc-f650-494e-8ab4-d1862f652126)
+![image](https://github.com/user-attachments/assets/fa46cdca-a092-4092-b211-5db6a5d8e15f)
 
 # Result
 A YACC program to recognize a valid variable which starts with a letter followed by any number of letters or digits is executed successfully and the output is verified.
